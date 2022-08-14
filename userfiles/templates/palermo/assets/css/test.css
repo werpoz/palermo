@@ -1,0 +1,49 @@
+body {
+    background-color: #ccc;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: unset;
+    text-decoration: none;
+    color: #20208e;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu .btn-cta {
+    background-color: #4ebde8;
+    color: white !important;
+    padding: 8px 50px;
+    border-radius: 25px;
+}
+
+.banner-palermo {
+    height: calc(100vh - 120px);
+    overflow: hidden;
+}
+
+.banner-palermo .carousel-caption {
+   border: 1px solid red;
+   text-align: left;
+   right: unset;
+   left: 15%;
+   top: 50%;
+   transform: translate(0, -50%);
+   bottom: unset;
+}
