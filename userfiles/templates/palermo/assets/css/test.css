@@ -27,7 +27,7 @@ body {
 }
 
 .menu .btn-cta {
-    background-color: #4ebde8;
+    background-color: #009fdd;
     color: white !important;
     padding: 8px 50px;
     border-radius: 25px;
@@ -39,11 +39,62 @@ body {
 }
 
 .banner-palermo .carousel-caption {
-   border: 1px solid red;
    text-align: left;
    right: unset;
    left: 15%;
-   top: 50%;
-   transform: translate(0, -50%);
+   top: 40%;
+   transform: translate(0%, -50%);
    bottom: unset;
+   margin: 0;
+   padding: 0;
+}
+
+.banner-palermo .carousel-caption p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner-palermo .carousel-caption h5 {
+    font-size: 54px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+
+.banner-palermo .carousel-caption .btn-cta {
+    background-color: #009fdd;
+    text-transform: uppercase;
+    color: white !important;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+.business-card-header {
+    background-color: #009fdd;
+    display: block;
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 16px;
+}
+
+.business-card-header p {
+    margin: 0;
+}
+
+.business-card {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
